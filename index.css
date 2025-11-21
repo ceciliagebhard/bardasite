@@ -226,19 +226,18 @@ a:visited {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1rem;
         padding: 0 1rem;
-        font-size: smaller;
         width: 50%;
     }
 
     .embedbox {
-        display: flex;
+        position: relative;
         width: 50%;
 
     }
 
     iframe {
-        height: 300px;
+        height: 100px;
     }
 }
