@@ -232,6 +232,10 @@ a:visited {
         padding: 4rem;
     }
 
+    body {
+        margin: 2rem;
+    }
+
     .embedbox {
         position: relative;
         width: 50%;
