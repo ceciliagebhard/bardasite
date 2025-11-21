@@ -228,7 +228,14 @@ a:visited {
     h1 {
         font-size: 2rem;
         padding: 0 1rem;
+        font-size: smaller;
         width: 50%;
+    }
+
+    .embedbox {
+        display: flex;
+        width: 50%;
+
     }
 
     iframe {
