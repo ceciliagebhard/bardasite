@@ -227,9 +227,9 @@ a:visited {
 @media (max-width: 1024px) {
     h1 {
         position: relative;
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 30%;
-        padding: 4rem;
+        padding: 2rem;
     }
 
     body {
@@ -239,6 +239,17 @@ a:visited {
     .embedbox {
         position: relative;
         width: 50%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    /* dos columnas iguales */
+        gap: 1rem;
+    /* espacio entre embeds */
+        max-width: 400px;
+        margin: 2rem;
+
+
+    /* alinea verticalmente arriba */
+}
 
     }
 
