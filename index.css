@@ -227,9 +227,10 @@ a:visited {
 @media (max-width: 1024px) {
     h1 {
         position: relative;
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 30%;
         padding: 2rem;
+        transform: translate(30%, -0%);
     }
 
     body {
@@ -239,29 +240,31 @@ a:visited {
     .embedbox {
         position: relative;
         width: 50%;
+        align-self: center;
         display: grid;
-        grid-template-rows: 1fr 1fr;
-    /* dos columnas iguales */
-        gap: 1rem;
-    /* espacio entre embeds */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        /* dos columnas iguales */
+        gap: 3rem;
+        /* espacio entre embeds */
         max-width: 400px;
-        margin: 2rem;
+        margin: 3rem;
+        transform: translate(23%, -0%);
 
 
-    /* alinea verticalmente arriba */
+        /* alinea verticalmente arriba */
+    }
+
 }
 
-    }
+iframe {
+    height: 100px;
+}
 
-    iframe {
-        height: 100px;
-    }
+.links {
+    font-size: 1.5rem;
+}
 
-    .links {
-        font-size: 1.5rem;
-    }
-
-    .creditos {
-        font-size: 1.5rem;
-    }
+.creditos {
+    font-size: 1.5rem;
 }
