@@ -255,16 +255,15 @@ a:visited {
         /* alinea verticalmente arriba */
     }
 
-}
+    iframe {
+        height: 100px;
+    }
 
-iframe {
-    height: 100px;
-}
+    .links {
+        font-size: 1.5rem;
+    }
 
-.links {
-    font-size: 1.5rem;
-}
-
-.creditos {
-    font-size: 1.5rem;
+    .creditos {
+        font-size: 1.5rem;
+    }
 }
